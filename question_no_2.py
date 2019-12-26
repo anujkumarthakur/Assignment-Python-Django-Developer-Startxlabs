@@ -13,7 +13,7 @@
 def stringComapre(str1, str2):
     for i in range(0, len(str2)):
         if(str1.index(str2[i]) < 0):
-            return False
+            return false
     return True
 if __name__ == "__main__":
     str1 = str(input("Enter first string : "))
